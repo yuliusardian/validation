@@ -9,7 +9,7 @@ class Factory
 {
 	private $factory;
 	
-	public function __construct($lang = 'en')
+	public function __construct($lang = 'id')
 	{
 		$this->factory = new Validation\Factory($this->loadTranslator($lang));
 	}

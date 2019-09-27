@@ -1,4 +1,5 @@
 .git
+.idea
 /src/lang/id/
 /vendor/
 
